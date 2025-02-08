@@ -1,0 +1,33 @@
+{
+  "recommendations": [
+    "formulahendry.auto-rename-tag", //Auto Rename Tag
+    "alefragnani.bookmarks", // Bookmarks
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint", //ESLint
+    "ms-ceintl.vscode-language-pack-ja", // Japanese Language Pack for Visual Studio Code
+    "yzhang.markdown-all-in-one", // Markdown All in One
+    "shd101wyy.markdown-preview-enhanced", // Markdown Preview Enhanced
+    "eg2.vscode-npm-script", // npm
+    "christian-kohler.npm-intellisense", //npm Intellisense
+    "ionutvmi.path-autocomplete", // Path Autocomplete
+    "mushan.vscode-paste-image", // Paste Image
+    "jebbs.plantuml", // PlantUML
+    "esbenp.prettier-vscode", // Prettier
+    "Syler.sass-indented", // Sass
+    "stylelint.vscode-stylelint", // stylelint
+    "mrmlnc.vscode-attrs-sorter", // Sorting HTML and Jade attributes
+    "shuworks.vscode-table-formatter", // Table Formatter
+    "wayou.vscode-todo-highlight", // TODO Highlight
+    "vue.volar", //Volar
+    "vscode-icons-team.vscode-icons", // vscode-icons
+    "dariofuzinato.vue-peek", // Vue Peek
+    "ics.japanese-proofreading" // テキスト校正くん
+  ],
+  "unwantedRecommendations": [
+    "hookyqr.beautify",
+    "dbaeumer.jshint",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "glen-84.sass-lint",
+    "octref.vetur" //VeturではなくVolarを使うこと
+  ]
+}

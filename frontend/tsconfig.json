@@ -1,0 +1,42 @@
+{
+  "extends": "./.quasar/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noEmit": true,
+    "paths": {
+      "src/*": ["src/*"],
+      "app/*": ["*"],
+      "assets/*": ["src/assets/*"],
+      "boot": ["src/boot"],
+      "boot/*": ["src/boot/*"],
+      "public": ["src/public"],
+      "public/*": ["src/public/*"],
+      "stores": ["src/stores"],
+      "stores/*": ["src/stores/*"],
+      "test": ["src/test"],
+      "test/*": ["src/test/*"],
+      "i18n": ["src/i18n"],
+      "i18n/*": ["src/i18n/*"],
+      "presenters": ["src/presenters"],
+      "presenters/*": ["src/presenters/*"],
+      "ui": ["src/ui"],
+      "ui/*": ["src/ui/*"],
+      "#q-app": ["./node_modules/@quasar/app-vite/types/index.d.ts"],
+      "#q-app/wrappers": ["./node_modules/@quasar/app-vite/types/app-wrappers.d.ts"],
+      "#q-app/bex/background": ["./node_modules/@quasar/app-vite/types/bex/entrypoints/background.d.ts"],
+      "#q-app/bex/content": ["./node_modules/@quasar/app-vite/types/bex/entrypoints/content.d.ts"],
+      "#q-app/bex/private/bex-bridge": ["./node_modules/@quasar/app-vite/types/bex/bex-bridge.d.ts"]
+    }
+  },
+  "include": ["src/**/*", "./quasar.config.ts"],
+  "exclude": ["node_modules"]
+}

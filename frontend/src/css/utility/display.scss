@@ -1,0 +1,25 @@
+@mixin full-size {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@mixin full-flex-center {
+  @include full-size;
+  @include flex-center;
+}
+
+.full-flex-center {
+  @include full-size-flex-center;
+}

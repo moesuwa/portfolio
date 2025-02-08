@@ -1,0 +1,103 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.guides.bracketPairs": true,
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "editor.codeActionsOnSave": ["source.fixAll.eslint", "source.fixAll.stylelint"],
+  "stylelint.validate": ["css", "scss", "vue"],
+  "stylelint.configFile": "./frontend/stylelint.config.js",
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+  "eslint.workingDirectories": ["./frontend"],
+  "files.associations": { "*.vue": "vue" },
+  "typescript.tsdk": "./frontend/node_modules/typescript/lib",
+  "prettier.configPath": "./frontend/.prettierrc",
+  "eslint.useFlatConfig": true,
+  "markdown.extension.toc.levels": "2..6",
+  "markdown.preview.breaks": true,
+  "git.ignoreLimitWarning": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.customLabels.patterns": {
+    "**/index.ts": "${dirname(1)}/${dirname}/🔍",
+    "**/page.vue": "${dirname(1)}/${dirname}/📖"
+  },
+  "cSpell.words": ["zindex"],
+  "cSpell.ignorePaths": [
+    "**/package.json",
+    "**/package-lock.json",
+    "**/yarn.lock",
+    "**/node_modules",
+    "**/quasar.conf.js",
+    "::/stylelint.config.js"
+  ],
+  "attrsSorter.order": [
+    "is",
+    "v-for",
+    "v-if",
+    "v-else-if",
+    "v-else",
+    "v-show",
+    "v-cloak",
+    "v-once",
+    "v-pre",
+    "id",
+    "ref",
+    "key",
+    "v-slot",
+    "v-slot.+",
+    "#.*",
+    "slot",
+    "v-model",
+    "v-model.+",
+    "v-bind",
+    "v-bind.+",
+    ":.+",
+    "v-text",
+    "v-text.+",
+    "v-html",
+    "v-html.+",
+    "class",
+    "v-on.+",
+    "@.+",
+    "name",
+    "data-.+",
+    "ng-.+",
+    "src",
+    "for",
+    "type",
+    "href",
+    "values",
+    "title",
+    "alt",
+    "role",
+    "aria-.+",
+    "$unknown$"
+  ],
+  "todohighlight.isEnable": true,
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "white",
+      "backgroundColor": "orange"
+    },
+    {
+      "text": "NOTE:",
+      "color": "white",
+      "backgroundColor": "blue"
+    }
+  ],
+  "todohighlight.include": ["**/*.ts", "**/*.scss", "**/*.vue"],
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "markdownlint.config": {
+    "MD033": {
+      "allowed_elements": ["img", "br"]
+    },
+    "MD045": false
+  }
+}
