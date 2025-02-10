@@ -20,6 +20,10 @@
   @include flex-center;
 }
 
+.full-size {
+  @include full-size;
+}
+
 .full-flex-center {
-  @include full-size-flex-center;
+  @include full-flex-center;
 }

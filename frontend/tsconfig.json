@@ -18,6 +18,8 @@
       "assets/*": ["src/assets/*"],
       "boot": ["src/boot"],
       "boot/*": ["src/boot/*"],
+      "domain": ["src/domain"],
+      "domain/*": ["src/domain/*"],
       "public": ["src/public"],
       "public/*": ["src/public/*"],
       "stores": ["src/stores"],

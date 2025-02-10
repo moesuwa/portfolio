@@ -19,6 +19,7 @@
   "dependencies": {
     "@quasar/extras": "^1.16.4",
     "axios": "^1.2.1",
+    "golden-layout": "^2.6.0",
     "nanoid": "^5.0.9",
     "pinia": "^2.0.11",
     "pinia-plugin-persistedstate": "^4.2.0",

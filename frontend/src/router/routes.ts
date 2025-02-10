@@ -4,7 +4,7 @@ const routes: RouteRecordRaw[] = [
   {
     name: 'mainMenu',
     path: '/',
-    component: () => import('ui/pages/mainMenu/page.vue'),
+    component: () => import('src/ui/pages/MainMenuPage.vue'),
   },
 
   // Always leave this as last one,

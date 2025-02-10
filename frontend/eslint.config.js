@@ -130,6 +130,8 @@ export default [
             { pattern: 'boot/**', group: 'internal', position: 'before' },
             { pattern: 'public', group: 'internal', position: 'before' },
             { pattern: 'public/**', group: 'internal', position: 'before' },
+            { pattern: 'domain', group: 'internal', position: 'before' },
+            { pattern: 'domain/**', group: 'internal', position: 'before' },
             { pattern: 'presenters', group: 'internal', position: 'before' },
             { pattern: 'presenters/**', group: 'internal', position: 'before' },
             { pattern: 'stores', group: 'internal', position: 'before' },

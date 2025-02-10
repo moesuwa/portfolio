@@ -25,7 +25,7 @@
     "**/index.ts": "${dirname(1)}/${dirname}/🔍",
     "**/page.vue": "${dirname(1)}/${dirname}/📖"
   },
-  "cSpell.words": ["zindex"],
+  "cSpell.words": ["goldenlayout", "zindex"],
   "cSpell.ignorePaths": [
     "**/package.json",
     "**/package-lock.json",

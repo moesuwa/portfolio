@@ -50,6 +50,7 @@ export default defineConfig((ctx) => {
         stores: fileURLToPath(new URL('./src/stores', import.meta.url)),
         presenters: fileURLToPath(new URL('./src/presenters', import.meta.url)),
         public: fileURLToPath(new URL('./src/public', import.meta.url)),
+        domain: fileURLToPath(new URL('./src/domain', import.meta.url)),
       },
 
       target: {
