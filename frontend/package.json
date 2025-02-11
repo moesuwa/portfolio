@@ -18,11 +18,13 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
+    "@types/plotly.js-dist-min": "^2.3.4",
     "axios": "^1.2.1",
     "golden-layout": "^2.6.0",
     "nanoid": "^5.0.9",
     "pinia": "^2.0.11",
     "pinia-plugin-persistedstate": "^4.2.0",
+    "plotly.js-dist-min": "^3.0.0",
     "postcss-html": "^1.8.0",
     "quasar": "^2.16.0",
     "stylelint": "^16.14.1",

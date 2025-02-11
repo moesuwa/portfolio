@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue';
 import { ResolvedLayoutConfig } from 'golden-layout';
 import { ElementConfig, ElementItem, createElementConfig, useGoldenLayout, PersistLayoutOptions } from 'presenters';
+import PlotlyPanel from 'ui/components/panels/PlotlyPanel.vue';
 import GoldenLayout from 'ui/layouts/GoldenLayout.vue';
 
 const save = (config: ResolvedLayoutConfig): void => localStorage.set('goldenLayout', JSON.stringify(config));
@@ -28,10 +29,10 @@ const { loadLayout } = useGoldenLayout(layout, elementItemList, removeConfig, pe
 onMounted(() => {
   const loadedConfigList = loadLayout();
   if (loadedConfigList == undefined) {
-    addConfig({ type: 'component', name: 'abc' });
-    addConfig({ type: 'component', name: 'def' });
-    addConfig({ type: 'component', name: 'ghi' });
-    addConfig({ type: 'component', name: 'jkl' });
+    addConfig({ type: 'abc', name: 'abc' });
+    addConfig({ type: 'def', name: 'def' });
+    addConfig({ type: 'ghi', name: 'ghi' });
+    addConfig({ type: 'jkl', name: 'jkl' });
     return;
   }
   configList.value = loadedConfigList;
@@ -46,7 +47,7 @@ onMounted(() => {
     :config-list="configList"
   >
     <template #abc>
-      <div style="background: red" />
+      <plotly-panel />
     </template>
     <template #def>
       <div style="background: yellow" />
