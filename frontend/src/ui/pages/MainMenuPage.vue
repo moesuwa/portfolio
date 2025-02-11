@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue';
 import { ResolvedLayoutConfig } from 'golden-layout';
 import { ElementConfig, ElementItem, createElementConfig, useGoldenLayout, PersistLayoutOptions } from 'presenters';
+import pixiPanel from 'ui/components/panels/pixiPanel.vue';
 import PlotlyPanel from 'ui/components/panels/PlotlyPanel.vue';
 import GoldenLayout from 'ui/layouts/GoldenLayout.vue';
 
@@ -50,13 +51,13 @@ onMounted(() => {
       <plotly-panel />
     </template>
     <template #def>
-      <div style="background: yellow" />
+      <div style="background: pink" />
     </template>
     <template #ghi>
       <div style="background: green" />
     </template>
     <template #jkl>
-      <div style="background: pink" />
+      <pixi-panel />
     </template>
     <template #empty>
       <div style="background: blue" />

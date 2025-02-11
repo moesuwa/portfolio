@@ -24,6 +24,7 @@
     "nanoid": "^5.0.9",
     "pinia": "^2.0.11",
     "pinia-plugin-persistedstate": "^4.2.0",
+    "pixi.js": "^8.7.3",
     "plotly.js-dist-min": "^3.0.0",
     "postcss-html": "^1.8.0",
     "quasar": "^2.16.0",
